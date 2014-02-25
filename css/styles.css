@@ -1,0 +1,143 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700italic,400);
+
+@font-face {
+	font-family: 'iconos';
+	src:url('fonts/iconos.eot?1ymi95');
+	src:url('fonts/iconos.eot?#iefix1ymi95') format('embedded-opentype'),
+		url('fonts/iconos.woff?1ymi95') format('woff'),
+		url('fonts/iconos.ttf?1ymi95') format('truetype'),
+		url('fonts/iconos.svg?1ymi95#iconos') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'iconos';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-star:before {
+	content: "\e601";
+}
+.icon-pencil:before {
+	content: "\e602";
+}
+.icon-up:before {
+	content: "\e603";
+}
+.icon-down:before {
+	content: "\e604";
+}
+
+a
+{
+
+}
+body 
+{
+	background: #eee;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+
+header 
+{
+	background: #343b54;
+	overflow: hidden;
+	position: relative;
+}
+
+header h1 
+{
+	color: white;
+	font-weight: normal;
+	font-size: 1.2em;
+	margin: 0 70px 0 0;
+	padding: 0.5em 0.5em;
+}
+
+header #avatar
+{
+	float: right;
+	margin: 0.5em;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+header #logo
+{
+	border-right: 1px solid white;
+	float: left;
+	margin: 0.5em;
+}
+
+nav 
+{
+	background: #80bca3;
+	position: relative;
+}
+
+nav ul
+{
+	
+	list-style: none;
+	margin: 0 1.5em 0 0;
+	padding-left: 1.5em;
+}
+
+nav ul li
+{
+	display: inline-block;
+}
+
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 0.5em;
+	text-decoration: none;
+	width: 4.2em;
+}
+
+nav #nav_post
+{
+	background: #22bce0;
+	position: absolute;
+	top: -0.3em;
+	right: 0.5em;
+}
+
+nav #nav_post
+{
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 20px;
+	color: white;
+	font-style: italic;
+	padding: 0.5em;
+	text-decoration: none;
+
+}
+
+#avatar img
+{
+	border-radius: 50%;
+	width: 50px;
+}
+
+#logo img
+{
+	padding-right: 0.5em;
+	width: 55px;
+}
+
